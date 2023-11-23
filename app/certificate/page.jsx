@@ -3,7 +3,7 @@ import React, { useRef } from "react";
 import html2canvas from 'html2canvas';
 import jsPDF from "jspdf";
 import Image from "next/image";
-import '../pdf/fonts/fonts.css';
+import './fonts/fonts.css';
 function HtmlToImageToPdf() {
   const htmlRef = useRef(null);
 
